@@ -93,6 +93,10 @@ public class MainActivity extends AppCompatActivity {
         int dataFrame[][] = new int[6][2]; //creating a dataframe of two columns and six rows for regresson purpose
         if(data==null)
             return null;
+        for (int i = 0; i < data.length; i++) {
+            dataFrame[i][0] = i + 1;
+            dataFrame[i][1] = data[i];
+        }
         return dataFrame;
     }
 
