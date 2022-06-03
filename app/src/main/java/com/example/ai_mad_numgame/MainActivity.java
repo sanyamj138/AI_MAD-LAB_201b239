@@ -101,7 +101,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public String getInterpretation(int [][]dataFrame,double slope){
-
+       //provide interpretation based on your slope analysis
+        // Your code here
         return "Your Interpretation";
     }
 }
